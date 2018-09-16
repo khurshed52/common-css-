@@ -1,2 +1,5 @@
 # common-css-
-common css for web page 
+Readymade class for common css as: padding, margin, flex, position, float
+# Quick start
+This package can be installed with:
+# npm: npm install khuri-common-css
