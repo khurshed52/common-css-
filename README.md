@@ -8,7 +8,7 @@ $ npm install khuri-common-css
 ```
 ### Static html
 
-```sh
+```html
 <link rel="stylesheet" href="/css/util.css" />
 <link rel="stylesheet" href="/css/util.min.css" />
 ```
@@ -45,5 +45,7 @@ $ npm install khuri-common-css
     .m-r-auto {margin-right: auto;}
     .m-lr-auto {margin-left: auto; margin-right: auto;}
 ```
+### See [More Defualt classes](https://github.com/khurshed52/common-css-/blob/master/css/util.css)
 
+### Screenshot for reference
 ![edit](https://user-images.githubusercontent.com/26027515/45599450-e59d7980-b9fc-11e8-92dd-9c4dbc6fb364.jpg)
