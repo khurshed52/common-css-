@@ -20,7 +20,6 @@ $ npm install khuri-common-css
   <div class="m-t-10"> Your Content </div> <!--for margin-top 10px;-->
   <div class="p-t-10"> Your Content </div> <!--for padding-top 10px;-->
   <div class="lh-15"> Your Content </div>  <!--for line-height 15px;-->
-  <div class="lh-15"> Your Content </div>  <!--for line-height 15px;-->
   <div class="dis-none"> Your Content </div>  <!--for display:none;-->
   <div class="pos-relative"> Your Content </div>  <!--for position:relative;-->
 ```

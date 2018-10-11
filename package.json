@@ -1,6 +1,6 @@
 {
   "name": "khuri-common-css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "common css for web page",
   "main": "index.js",
   "scripts": {
