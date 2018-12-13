@@ -7,7 +7,6 @@
 	box-sizing: border-box;
 }
 
-
 body, html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -27,7 +26,6 @@ ul, li {
 	margin: 0px;
 	list-style-type: none;
 }
-
 
 /*---------------------------------------------*/
 input, textarea, label {
@@ -1516,8 +1514,6 @@ figure:hover img {
 .p-r-298, .p-lr-298, .p-all-298 {padding-right: 298px;}
 .p-r-299, .p-lr-299, .p-all-299 {padding-right: 299px;}
 .p-r-300, .p-lr-300, .p-all-300 {padding-right: 300px;}
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ MARGIN ]*/
@@ -3134,8 +3130,6 @@ figure:hover img {
 .m-r-auto {margin-right: auto;}
 .m-lr-auto {margin-left: auto; margin-right: auto;}
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ TEXT ]*/
 .clwhite {color: white;}
@@ -3232,13 +3226,11 @@ figure:hover img {
 .wrap-pic-s img {width: 100%; height: 100%;}
 .wrap-pic-max-s img {max-width: 100%; max-height: 100%;}
 
-
 /*---------------------------------------------*/
 .pointer {cursor: pointer;}
 .of-hidden {overflow: hidden;}
 .visible-false {visibility: hidden;}
 .visible-true {visibility: visible;}
-
 
 /*------------------------------------------------------------------
 [ Transition ]*/
@@ -3309,7 +3301,6 @@ figure:hover img {
     box-shadow: 0 0 6px 0 rgba(195,195,195,.74);
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ POSITION ]*/
 
@@ -3319,7 +3310,6 @@ figure:hover img {
 .dis-block {display: block;}
 .dis-inline {display: inline;}
 .dis-inline-block {display: inline-block;}
-
 .flex-w,
 .flex-l,
 .flex-r,
@@ -3379,7 +3369,6 @@ figure:hover img {
 [ Float ]*/
 .float-l {float: left;}
 .float-r {float: right;}
-
 
 /*------------------------------------------------------------------
 [ Top Bottom Left Right ]*/
@@ -3654,7 +3643,6 @@ figure:hover img {
 	flex-direction: column-reverse;
 }
 
-
 /*------------------------------------------------------------------
 [ Absolute ]*/
 .ab-c-m {
@@ -3736,11 +3724,8 @@ figure:hover img {
 	bottom: 0px;
 }
 
-
-
 /*//////////////////////////////////////////////////////////////////
 [ Other ]*/
-
 .parallax100 {
   background-attachment: fixed;
   background-position: center 0;
@@ -3753,7 +3738,6 @@ figure:hover img {
     background-attachment: inherit;
   }
 }
-
 
 /*---------------------------------------------*/
 .hidden-scroll {
