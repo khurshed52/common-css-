@@ -65,23 +65,6 @@ section {
 	padding-bottom: 1.5em
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background:none !important;
-    text-decoration: none;
-}
-
-.owl-prev {
-    top: 37px;
-    position: absolute;
-    left: -40px;
-}
-
-.owl-next {
-    top: 37px;
-    position: absolute;
-    right: -40px;
-}
-
 .clear {
     clear: both;
     margin: 0;
