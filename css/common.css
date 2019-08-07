@@ -3741,3 +3741,115 @@ figure:hover img {
 .pointer-none {
 	pointer-events: none;
 }
+
+/*-----------------btn added----------------------------*/
+.kh-btn {
+    background: #f0932b;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1em;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px 16px
+}
+
+.kh-btn:hover {
+    background: #e27f10;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)
+}
+
+.kh-btn:active {
+    background: #91520a
+}
+
+.primary-btn{
+    background: #22a6b3;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1em;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px 16px
+}
+
+.primary-btn:hover {
+    background: #1b8691;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)
+}
+
+.primary-btn:active {
+    background: #0e4348
+}
+
+.arrow-anim-btn {
+    background: #f0932b;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1em;
+    border-radius: 1em;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px 16px;
+}
+.arrow-anim-btn span {
+    background: #ab6c1e;
+    padding: 0px 8px;
+    border-radius: 0.8em;
+    position: relative;
+    left: 0;
+    transition: all 0.2s ease-in-out; 
+}
+
+.arrow-anim-btn:hover{
+    color: #fff;
+}
+
+.arrow-anim-btn:hover span { 
+    left:5px
+}
+
+/*-----------------arrow animate added----------------------------*/
+.arrow-btn {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    border-radius: 4px;
+    display: inline-block;
+    width: auto;
+    padding: 15px 30px 12px;
+    font-weight: 400;
+    background-color: #0978ff !important;
+    color: #fff !important
+}
+
+.link--arrowed .arrow-icon {
+    position: relative;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease,-webkit-transform .2s ease;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.link--arrowed .arrow-icon--circle {
+    -webkit-transition: stroke-dashoffset .3s ease;
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+
+.link--arrowed:hover .arrow-icon--circle {
+    stroke-dashoffset: 0;
+}
